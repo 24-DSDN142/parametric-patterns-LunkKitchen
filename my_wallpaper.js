@@ -3,9 +3,9 @@
 
 let headX = 100; //x location for head
 let headY = 100; //y location for head
-var headScale = 0.7; //scale multiplier for whole head size
+var headScale = 1; //scale multiplier for whole head size
 var ellipseHeight = 200; //Face circle height and width
-var eyeLength = 50; //changes eye shape
+var eyeLength = 80; //changes eye shape
 var eyeWidth = 10; //changes eye shape
 var backgroundColour = 1; //set to 1 or 2 for different background colours
 var backgroundVariation = 1; //set to 1 or 2 for different background patterns
@@ -19,7 +19,7 @@ let eyeColour1, eyeColour2, smileColour;
 
 function setup_wallpaper(pWallpaper) {
   pWallpaper.output_mode(GRID_WALLPAPER);
-  pWallpaper.resolution(FIT_TO_SCREEN);
+  pWallpaper.resolution(A3);
   pWallpaper.show_guide(false); //set this to false when you're ready to print
   
 

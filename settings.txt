@@ -7,48 +7,92 @@ Your final settings.txt will look something like this when you are finished:
 
 /////////////////////////////////
 
-Wallpaper 1:
+Wallpaper 1
+let headX = 100; //x location for head
+let headY = 100; //y location for head
+var headScale = 0.7; //scale multiplier for whole head size
+var ellipseHeight = 200; //Face circle height and width
+var eyeLength = 50; //changes eye shape
+var eyeWidth = 10; //changes eye shape
+var backgroundColour = 1; //set to 1 or 2 for different background colours
+var backgroundVariation = 1; //set to 1 or 2 for different background patterns
 
-//your parameter variables go here!
-let rect_width  = 20;
-let rect_height = 20;
-let paramter1 = 10;
-let paramter2 = true;
-let paramter3 = 50; 
-let paramter4 = 0; 
-let paramter5 = 60;
+Wallpaper 2
+let headX = 50; //x location for head
+let headY = 100; //y location for head
+var headScale = 1.5; //scale multiplier for whole head size
+var ellipseHeight = 200; //Face circle height and width
+var eyeLength = 100; //changes eye shape
+var eyeWidth = 10; //changes eye shape
+var backgroundColour = 1; //set to 1 or 2 for different background colours
+var backgroundVariation = 1; //set to 1 or 2 for different background patterns
 
-function setup_wallpaper(pWallpaper) {
-  pWallpaper.output_mode(GRID_WALLPAPER);
-  pWallpaper.resolution(NINE_LANDSCAPE);
-  pWallpaper.show_guide(false); //set this to false when you're ready to print
+Wallpaper 3
+let headX = 200; //x location for head
+let headY = 100; //y location for head
+var headScale = 1.2; //scale multiplier for whole head size
+var ellipseHeight = 200; //Face circle height and width
+var eyeLength = 150; //changes eye shape
+var eyeWidth = 10; //changes eye shape
+var backgroundColour = 2; //set to 1 or 2 for different background colours
+var backgroundVariation = 1; //set to 1 or 2 for different background patterns
 
-  //Grid settings
-  pWallpaper.grid_settings.cell_width  = 100;
-  pWallpaper.grid_settings.cell_height = 100;
-  pWallpaper.grid_settings.row_offset  = 50;
-}
+Wallpaper 4
+let headX = 200; //x location for head
+let headY = 100; //y location for head
+var headScale = 1.2; //scale multiplier for whole head size
+var ellipseHeight = 200; //Face circle height and width
+var eyeLength = 80; //changes eye shape
+var eyeWidth = 20; //changes eye shape
+var backgroundColour = 2; //set to 1 or 2 for different background colours
+var backgroundVariation = 2; //set to 1 or 2 for different background patterns
 
-/////////////////////////////////
+Wallpaper 5
+let headX = 200; //x location for head
+let headY = 100; //y location for head
+var headScale = 1.2; //scale multiplier for whole head size
+var ellipseHeight = 200; //Face circle height and width
+var eyeLength = 80; //changes eye shape
+var eyeWidth = 20; //changes eye shape
+var backgroundColour = 2; //set to 1 or 2 for different background colours
+var backgroundVariation = 2; //set to 1 or 2 for different background patterns
 
-Wallpaper 2:
+Wallpaper 6
+let headX = 100; //x location for head
+let headY = 80; //y location for head
+var headScale = 0.5; //scale multiplier for whole head size
+var ellipseHeight = 400; //Face circle height and width
+var eyeLength = 80; //changes eye shape
+var eyeWidth = 20; //changes eye shape
+var backgroundColour = 2; //set to 1 or 2 for different background colours
+var backgroundVariation = 2; //set to 1 or 2 for different background patterns
 
-//your parameter variables go here!
-let rect_width  = 10;
-let rect_height = 10;
-let paramter1 = 20;
-let paramter2 = false;
-let paramter3 = 50; 
-let paramter4 = 80; 
-let paramter5 = 30;
+Wallpaper 7
+let headX = 100; //x location for head
+let headY = 100; //y location for head
+var headScale = 0.5; //scale multiplier for whole head size
+var ellipseHeight = 300; //Face circle height and width
+var eyeLength = 80; //changes eye shape
+var eyeWidth = 50; //changes eye shape
+var backgroundColour = 1; //set to 1 or 2 for different background colours
+var backgroundVariation = 2; //set to 1 or 2 for different background patterns
 
-function setup_wallpaper(pWallpaper) {
-  pWallpaper.output_mode(GRID_WALLPAPER);
-  pWallpaper.resolution(NINE_LANDSCAPE);
-  pWallpaper.show_guide(false); //set this to false when you're ready to print
+Wallpaper 8
+let headX = 400; //x location for head
+let headY = 100; //y location for head
+var headScale = 0.6; //scale multiplier for whole head size
+var ellipseHeight = 200; //Face circle height and width
+var eyeLength = 80; //changes eye shape
+var eyeWidth = 10; //changes eye shape
+var backgroundColour = 1; //set to 1 or 2 for different background colours
+var backgroundVariation = 2; //set to 1 or 2 for different background patterns
 
-  //Grid settings
-  pWallpaper.grid_settings.cell_width  = 100;
-  pWallpaper.grid_settings.cell_height = 100;
-  pWallpaper.grid_settings.row_offset  = 0;
-}
+Wallpaper 9
+let headX = 100; //x location for head
+let headY = 100; //y location for head
+var headScale = 1.3; //scale multiplier for whole head size
+var ellipseHeight = 200; //Face circle height and width
+var eyeLength = 80; //changes eye shape
+var eyeWidth = 10; //changes eye shape
+var backgroundColour = 1; //set to 1 or 2 for different background colours
+var backgroundVariation = 1; //set to 1 or 2 for different background patterns
